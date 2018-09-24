@@ -9,7 +9,7 @@ public class HelloSpringApp {
 		// load config
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-		// tetrieve from spring
+		// retrieve from spring
 		Coach theCoach = context.getBean("myFortune", Coach.class);
 
 		// call method on the bean
